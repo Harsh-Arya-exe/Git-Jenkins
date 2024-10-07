@@ -23,6 +23,6 @@ Code: {self.code}\n\
 Exp: {self.exp} years\n\
 Pay: {self.mpay}")
     
-print(Employee.mro())
+print("Mro:",Employee.mro())
 e = Employee("john doe", 'E007', 4, 200000)
 print(e)
